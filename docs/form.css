@@ -1,0 +1,82 @@
+body{
+    background-color:black;
+    text-align: center;
+}
+
+h1{
+    font: 28px;
+    font-weight: bold;
+    color:red;
+    font-style: oblique;
+}
+
+.form{
+    display:inline-block;
+    border-width: 3px;
+    border-color: black;
+    border-radius: 8%;
+    border-style: solid;
+    width: 500px;
+    background-color: rgb(0, 238, 255);
+    margin-top: 70px;
+}
+
+input[type=password]:hover,
+input[type=number]:hover,
+input[type=text]:hover,
+textarea:hover,
+select:hover
+{
+    background-color:bisque;
+}
+
+textarea{
+    width: 170px;
+    height: 50px;
+    resize: none;
+    padding-left: 5px;
+    margin-left: 18px;
+}
+
+select{
+    width: 180px;
+    height: 25px;
+    margin-left: 18px;
+}
+
+input{
+    display:table-column;
+    height: 18px;
+    padding-left: 5px;
+    margin-left: 18px;
+}
+
+input[type=submit]:hover
+{
+    background-color: green;
+}
+input[type=submit]
+{
+    height: 30px;
+    border-style: double;
+    border-radius: 30%;
+    border-width: 2px;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: sans-serif;
+    border-color: blueviolet;
+    background-color: cornsilk;
+}
+
+label{
+    text-align:right;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(243, 12, 12);
+}
+
+table{
+    display: inline-block;
+}
+
+ 
