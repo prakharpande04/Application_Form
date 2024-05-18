@@ -1,5 +1,5 @@
 body{
-    background-color:black;
+    background-color:rgba(197, 180, 190, 0.959);
     text-align: center;
 }
 
@@ -66,6 +66,9 @@ input[type=submit]
     font-family: sans-serif;
     border-color: blueviolet;
     background-color: cornsilk;
+}
+input[type=submit]:hover{
+    cursor: pointer;
 }
 
 label{
